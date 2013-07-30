@@ -10,9 +10,10 @@ scalaVersion :=  "2.10.2"
 //     libraryDependencies += "org.opencv" % "opencv" % "2.4.6"
 //     resolvers += Resolver.file("org.opencv", file("/opt/local/share/OpenCV/java")) transactional()
 // IN THE MEANTIME, DO:
+//   port -n install jpeg
 //   port -n install opencv +java +static +eigen +opencl +tbb
 //   mkdir ./lib
-//   cp /opt/local/share/OpenCV/java ./lib/
+//   cp /opt/local/share/OpenCV/java/* ./lib/
 
 fork := true
 
